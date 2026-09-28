@@ -183,7 +183,7 @@ The contribution graph below is generated from GitHub Actions and refreshed auto
     <img src="./dark.svg" alt="Antariksh Tamuly — Data Science, Business Analytics, Machine Learning and AI" width="1180" />
   </picture>
 </p>
-
+<div style="display:flex;justify-content:center;">
 <h1 align="center">Antariksh Tamuly</h1>
 
 <p align="center">
@@ -581,6 +581,7 @@ PORTFOLIO
 <p align="center">
 
 <i>
+
 Building the bridge between data, intelligence, and real-world decisions.
 </i>
 
@@ -590,3 +591,5 @@ Building the bridge between data, intelligence, and real-world decisions.
 <strong>DATA SCIENCE · BUSINESS ANALYTICS · MACHINE LEARNING · AI</strong>
 
 </p>
+
+</div>
