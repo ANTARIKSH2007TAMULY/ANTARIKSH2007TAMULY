@@ -3,9 +3,15 @@
   <desc id="desc">A premium dark technical dashboard with a portrait panel, animated grid, and system status console for Antariksh Tamuly.</desc>
   <defs>
     <linearGradient id="bgDark" x1="0" y1="0" x2="1180" y2="610" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#060B13"/>
-      <stop offset="0.42" stop-color="#0A1220"/>
-      <stop offset="1" stop-color="#0D1523"/>
+      <stop offset="0" stop-color="#060B13">
+        <animate attributeName="stop-color" values="#060B13;#0B1320;#060B13;#101D2F;#060B13" dur="20s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.42" stop-color="#0A1220">
+        <animate attributeName="stop-color" values="#0A1220;#121F2E;#0A1220;#15273E;#0A1220" dur="20s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#0D1523">
+        <animate attributeName="stop-color" values="#0D1523;#132238;#0D1523;#101E31;#0D1523" dur="20s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
     <radialGradient id="haloDark" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(286 240) rotate(90) scale(270 270)">
       <stop offset="0" stop-color="#8AE6FF" stop-opacity="0.3"/>
@@ -30,14 +36,15 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <filter id="softBlurDark" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2"/>
-    </filter>
   </defs>
 
   <rect width="1180" height="610" fill="url(#bgDark)"/>
-  <rect width="1180" height="610" fill="url(#gridDark)" opacity="0.8"/>
-  <circle cx="286" cy="240" r="260" fill="url(#haloDark)"/>
+  <rect width="1180" height="610" fill="url(#gridDark)" opacity="0.8">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 20 0; 0 0" dur="32s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="286" cy="240" r="260" fill="url(#haloDark)">
+    <animate attributeName="r" values="240;270;240" dur="18s" repeatCount="indefinite"/>
+  </circle>
   <rect x="30" y="40" width="680" height="530" rx="22" fill="#091720" stroke="#1A2D40"/>
   <rect x="742" y="46" width="402" height="520" rx="22" fill="url(#panelDark)" stroke="#1D2C3E"/>
 
