@@ -17,48 +17,47 @@
   <a href="https://antariksh-portfolio-tau.vercel.app/">Portfolio</a>
 </p>
 
-## About
+## 01 / IDENTITY
 
-I am Antariksh Tamuly, a student and early-career developer building a strong technical foundation across software engineering, data science, machine learning, and AI. My academic path includes a B.S. in Data Science and Applications at IIT Madras and a UG in Computer Science & AI at Scaler School of Technology.
+I am Antariksh Tamuly, a student and early-career developer building a solid technical foundation across software engineering, data science, machine learning, and AI. My academic path includes IIT Madras, where I am pursuing a BS in Data Science and Applications, and Scaler School of Technology, where I am pursuing a UG in Computer Science & AI.
 
-I focus on building reliable software, working with data-driven systems, and exploring practical machine learning and AI workflows. The goal is to develop engineering judgment, product thinking, and technical depth while staying grounded in real implementation.
+I focus on building dependable software, working with data-driven systems, and exploring practical machine learning and AI workflows. The aim is to grow technical depth while staying grounded in real implementation and thoughtful engineering practice.
 
-## What I'm Building
+## 02 / SIGNAL
 
-- Full-stack software systems with a focus on clarity, maintainability, and user value
-- Data-driven applications that turn raw information into actionable insight
-- Machine learning and AI experiments grounded in real use cases and clean engineering practices
-- A practical blend of software engineering fundamentals and applied data/ML thinking
+<p align="center">
+  <code>SOFTWARE</code> · <code>DATA</code> · <code>ML</code> · <code>AI</code> · <code>BUILDING</code>
+</p>
 
-## Education
+## 03 / BUILDING
 
-- IIT Madras — BS in Data Science and Applications — CGPA 9.2
-- Scaler School of Technology — UG in Computer Science & AI — CGPA 9.12
+- Full-stack software systems with an emphasis on maintainability and clarity
+- Data-driven applications that turn raw information into useful, actionable insight
+- Machine learning and AI experiments grounded in practical use cases
+- A disciplined blend of software engineering fundamentals and applied data/ML thinking
 
-## Technical Stack
+## 04 / STACK
 
-### Languages
-Python, JavaScript, TypeScript, SQL, C++, Java, HTML, CSS
+| Area | Focus |
+| --- | --- |
+| Languages | Python, JavaScript, TypeScript, SQL, C++, Java, HTML, CSS |
+| Data / ML | Pandas, NumPy, scikit-learn, exploratory data analysis, model experimentation |
+| Frontend | HTML, CSS, JavaScript, React, responsive UI design |
+| Backend | REST APIs, server-side logic, database integration, application architecture |
+| Databases | SQL, relational data modeling, persistent application data |
+| Tools | Git, GitHub, VS Code, Linux, debugging, testing workflows |
+| Cloud / DevOps | GitHub Actions, deployment workflows, environment management |
 
-### Data Science / ML
-Pandas, NumPy, scikit-learn, data analysis, model experimentation, exploratory data analysis
+## 05 / EDUCATION
 
-### Frontend
-HTML, CSS, JavaScript, React, responsive UI design
+<table>
+  <tr>
+    <td width="50%"><strong>IIT Madras</strong><br>BS in Data Science and Applications<br><br><strong>CGPA 9.2</strong></td>
+    <td width="50%"><strong>Scaler School of Technology</strong><br>UG in Computer Science & AI<br><br><strong>CGPA 9.12</strong></td>
+  </tr>
+</table>
 
-### Backend
-REST APIs, server-side logic, database integration, application architecture
-
-### Databases
-SQL, relational data modeling, data persistence patterns
-
-### Developer Tools
-Git, GitHub, VS Code, Linux, debugging, testing workflows
-
-### Cloud / DevOps
-GitHub Actions, deployment workflows, environment management
-
-## GitHub Activity
+## 06 / ACTIVITY
 
 The contribution graph below is generated from GitHub Actions and refreshed automatically.
 
@@ -66,7 +65,7 @@ The contribution graph below is generated from GitHub Actions and refreshed auto
   <img src="./assets/github-contribution-grid-snake.svg" alt="Contribution snake for Antariksh Tamuly" width="100%" />
 </p>
 
-## Connect
+## 07 / CONNECT
 
 - GitHub: https://github.com/ANTARIKSH2007TAMULY
 - LinkedIn: https://www.linkedin.com/in/antariksh-tamuly-5307ab373/

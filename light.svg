@@ -1,21 +1,29 @@
 <svg width="1180" height="610" viewBox="0 0 1180 610" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Antariksh Tamuly technical profile hero</title>
-  <desc id="desc">A light-theme technical profile header showing a terminal-inspired portrait on the left and a system info panel on the right.</desc>
+  <title id="title">Antariksh Tamuly system profile</title>
+  <desc id="desc">A premium light technical dashboard with a portrait panel, animated grid, and system status console for Antariksh Tamuly.</desc>
   <defs>
     <linearGradient id="bgLight" x1="0" y1="0" x2="1180" y2="610" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#F6F9FF"/>
+      <stop offset="0" stop-color="#F5F9FF"/>
       <stop offset="0.5" stop-color="#EEF4FF"/>
-      <stop offset="1" stop-color="#F4F8FC"/>
+      <stop offset="1" stop-color="#F4F8FD"/>
     </linearGradient>
+    <radialGradient id="haloLight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(286 240) rotate(90) scale(270 270)">
+      <stop offset="0" stop-color="#5EA7FF" stop-opacity="0.2"/>
+      <stop offset="0.45" stop-color="#6EA3FF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#F5F9FF" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="panelLight" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#F4F8FF"/>
+      <stop offset="1" stop-color="#F5F9FF"/>
     </linearGradient>
-    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1B7AE5"/>
-      <stop offset="1" stop-color="#5C5AE8"/>
+    <linearGradient id="lineLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1E7BE6"/>
+      <stop offset="1" stop-color="#5B67E8"/>
     </linearGradient>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <pattern id="gridLight" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" stroke="#DBE7F6" stroke-width="1" opacity="0.8"/>
+    </pattern>
+    <filter id="glowLight" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -25,93 +33,109 @@
   </defs>
 
   <rect width="1180" height="610" fill="url(#bgLight)"/>
-  <rect x="28" y="40" width="680" height="530" rx="22" fill="#F8FBFF" stroke="#D9E5F2"/>
-  <rect x="742" y="46" width="402" height="520" rx="22" fill="url(#panelLight)" stroke="#D8E3F2"/>
+  <rect width="1180" height="610" fill="url(#gridLight)" opacity="0.9"/>
+  <circle cx="286" cy="240" r="260" fill="url(#haloLight)"/>
+  <rect x="30" y="40" width="680" height="530" rx="22" fill="#F8FBFF" stroke="#D9E7F4"/>
+  <rect x="742" y="46" width="402" height="520" rx="22" fill="url(#panelLight)" stroke="#D8E4F1"/>
 
-  <g opacity="0.8">
+  <g opacity="0.85">
     <circle cx="55" cy="64" r="5" fill="#FF5F57"/>
     <circle cx="73" cy="64" r="5" fill="#FEBC2E"/>
     <circle cx="91" cy="64" r="5" fill="#28C840"/>
-    <text x="117" y="70" fill="#526376" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">terminal/profile</text>
+    <text x="117" y="70" fill="#526377" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">terminal/profile</text>
   </g>
 
-  <g opacity="0.5">
-    <path d="M58 106H650" stroke="#D8E4F2"/>
-    <path d="M58 440H650" stroke="#D8E4F2"/>
+  <g opacity="0.75">
+    <path d="M58 104H650" stroke="#D3DFEE"/>
+    <path d="M58 438H650" stroke="#D3DFEE"/>
   </g>
 
-  <g opacity="0.9">
-    <text x="62" y="136" fill="#55708B" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">/profile/identity</text>
-    <text x="62" y="170" fill="#127A63" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">&gt; scan_profile --mode=terminal</text>
+  <g opacity="0.8">
+    <text x="62" y="136" fill="#5C778E" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">/profile/identity</text>
+    <text x="62" y="170" fill="#147C65" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">&gt; scan_profile --mode=terminal</text>
   </g>
 
-  <g transform="translate(96 176)">
-    <g opacity="0.8">
-      <path d="M38 0H292" stroke="#DCE8F5"/>
-      <path d="M38 34H292" stroke="#DCE8F5"/>
-      <path d="M38 68H292" stroke="#DCE8F5"/>
-      <path d="M38 102H292" stroke="#DCE8F5"/>
-      <path d="M38 136H292" stroke="#DCE8F5"/>
-      <path d="M38 170H292" stroke="#DCE8F5"/>
-      <path d="M38 204H292" stroke="#DCE8F5"/>
+  <g id="scanline" opacity="0.7">
+    <rect x="66" y="110" width="580" height="2" fill="url(#lineLight)">
+      <animate attributeName="y" values="110;150;110;150;110;150;110" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.72;0.25;0.65;0.2;0.78;0.1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
-      <path d="M0 20H38" stroke="#DCE8F5"/>
-      <path d="M0 54H38" stroke="#DCE8F5"/>
-      <path d="M0 88H38" stroke="#DCE8F5"/>
-      <path d="M0 122H38" stroke="#DCE8F5"/>
-      <path d="M0 156H38" stroke="#DCE8F5"/>
-      <path d="M0 190H38" stroke="#DCE8F5"/>
-      <path d="M0 224H38" stroke="#DCE8F5"/>
+  <g transform="translate(92 176)">
+    <g opacity="0.7">
+      <path d="M40 0H290" stroke="#DDE8F5"/>
+      <path d="M40 34H290" stroke="#DDE8F5"/>
+      <path d="M40 68H290" stroke="#DDE8F5"/>
+      <path d="M40 102H290" stroke="#DDE8F5"/>
+      <path d="M40 136H290" stroke="#DDE8F5"/>
+      <path d="M40 170H290" stroke="#DDE8F5"/>
+      <path d="M40 204H290" stroke="#DDE8F5"/>
+      <path d="M0 20H40" stroke="#DDE8F5"/>
+      <path d="M0 54H40" stroke="#DDE8F5"/>
+      <path d="M0 88H40" stroke="#DDE8F5"/>
+      <path d="M0 122H40" stroke="#DDE8F5"/>
+      <path d="M0 156H40" stroke="#DDE8F5"/>
+      <path d="M0 190H40" stroke="#DDE8F5"/>
+      <path d="M0 224H40" stroke="#DDE8F5"/>
     </g>
 
-    <g filter="url(#softGlow)">
-      <path d="M117 18L136 18L161 30L136 48L117 48L93 36L117 18Z" fill="#4D6EF5" opacity="0.12"/>
-      <path d="M140 78C171 58 191 52 213 53C241 54 255 72 259 91C263 113 245 141 216 149C183 158 146 149 123 126C101 103 108 93 140 78Z" fill="#EEF5FF" stroke="#1C7AE6" stroke-width="1.5"/>
-      <path d="M137 89C155 73 175 68 192 70C209 72 222 83 227 96C233 111 225 130 207 138C189 146 160 143 144 129C126 114 121 103 137 89Z" fill="#E6F0FF"/>
-      <circle cx="175" cy="99" r="8" fill="#162839"/>
-      <circle cx="203" cy="99" r="8" fill="#162839"/>
-      <path d="M171 121C182 128 189 130 198 129C207 128 214 124 219 119" stroke="#1FA97A" stroke-width="4" stroke-linecap="round"/>
-      <path d="M105 157C133 176 164 186 199 185C234 183 263 171 290 154" stroke="#4E63E4" stroke-width="2" opacity="0.8"/>
-      <path d="M126 202C150 191 178 186 209 188C238 190 261 197 282 209" stroke="#1C7AE6" stroke-width="2" opacity="0.8"/>
+    <g filter="url(#glowLight)">
+      <path d="M117 18L136 18L161 30L136 48L117 48L93 36L117 18Z" fill="#5977E8" opacity="0.1"/>
+      <path d="M118 34C132 22 152 19 168 21C190 23 206 36 214 52C222 68 218 87 201 100C183 114 155 115 138 105C120 94 108 68 118 34Z" fill="#EEF7FF" stroke="#1C7AE6" stroke-width="1.4"/>
+      <path d="M137 84C151 70 169 66 188 68C208 70 221 83 227 96C233 112 224 130 208 138C188 147 160 145 144 131C128 116 121 101 137 84Z" fill="#EAF2FF"/>
+      <circle cx="175" cy="98" r="8" fill="#14263B"/>
+      <circle cx="203" cy="98" r="8" fill="#14263B"/>
+      <path d="M170 120C180 127 188 130 198 130C207 130 214 126 219 120" stroke="#1FA97A" stroke-width="4" stroke-linecap="round"/>
+      <path d="M105 158C132 176 164 186 200 185C236 184 266 171 293 154" stroke="#4E63E4" stroke-width="2" opacity="0.85"/>
+      <path d="M121 203C145 191 177 186 210 188C240 190 263 198 285 209" stroke="#4C6BF7" stroke-width="2" opacity="0.75"/>
     </g>
 
     <g opacity="0.9">
-      <circle cx="83" cy="63" r="3" fill="#1C7AE6"/>
-      <circle cx="95" cy="86" r="3" fill="#4D6EF5"/>
-      <circle cx="95" cy="124" r="3" fill="#1FA97A"/>
-      <circle cx="216" cy="44" r="3" fill="#1C7AE6"/>
-      <circle cx="243" cy="74" r="3" fill="#4D6EF5"/>
-      <circle cx="260" cy="130" r="3" fill="#1FA97A"/>
-      <circle cx="302" cy="109" r="3" fill="#1C7AE6"/>
-      <circle cx="302" cy="153" r="3" fill="#4D6EF5"/>
+      <circle cx="86" cy="62" r="3.2" fill="#1C7AE6"/>
+      <circle cx="95" cy="88" r="3.2" fill="#4F67E9"/>
+      <circle cx="93" cy="124" r="3.2" fill="#1FA97A"/>
+      <circle cx="218" cy="42" r="3.2" fill="#1C7AE6"/>
+      <circle cx="246" cy="74" r="3.2" fill="#4F67E9"/>
+      <circle cx="262" cy="132" r="3.2" fill="#1FA97A"/>
+      <circle cx="302" cy="110" r="3.2" fill="#1C7AE6"/>
+      <circle cx="302" cy="153" r="3.2" fill="#4F67E9"/>
     </g>
 
-    <g opacity="0.55">
+    <g opacity="0.65">
       <path d="M84 204L132 204" stroke="#1C7AE6"/>
       <path d="M84 214L148 214" stroke="#1C7AE6"/>
-      <path d="M84 224L139 224" stroke="#1C7AE6"/>
+      <path d="M84 224L138 224" stroke="#1C7AE6"/>
       <path d="M84 234L122 234" stroke="#1C7AE6"/>
+    </g>
+
+    <g opacity="0.8">
+      <path d="M40 270C84 246 120 236 166 234C206 232 247 240 290 260" stroke="#D1DBEA" stroke-width="1.2"/>
+      <path d="M142 24L308 24" stroke="#D1DBEA" stroke-width="1.2"/>
+      <path d="M142 260L308 260" stroke="#D1DBEA" stroke-width="1.2"/>
     </g>
   </g>
 
   <g>
-    <rect x="465" y="94" width="180" height="12" rx="6" fill="#E2EBF7"/>
-    <rect x="465" y="94" width="120" height="12" rx="6" fill="url(#accentLine)"/>
-    <text x="466" y="130" fill="#172638" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">signal / identity map</text>
+    <rect x="462" y="96" width="188" height="14" rx="7" fill="#E7EEF9"/>
+    <rect x="462" y="96" width="126" height="14" rx="7" fill="url(#lineLight)"/>
+    <text x="464" y="132" fill="#172B3D" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">signal / identity map</text>
   </g>
 
-  <g opacity="0.9">
-    <path d="M54 456H642" stroke="#D7E1EF"/>
-    <text x="62" y="483" fill="#127A63" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">status: active</text>
-    <text x="180" y="483" fill="#4B627F" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">learning / building / iterating</text>
-    <circle cx="610" cy="476" r="5" fill="#1FA97A"/>
-    <rect x="542" y="466" width="54" height="18" rx="9" fill="#EFF5FF" stroke="#D2DFF0"/>
+  <g opacity="0.85">
+    <path d="M54 455H642" stroke="#D8E3F4"/>
+    <text x="62" y="482" fill="#127A63" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">status: active</text>
+    <text x="180" y="482" fill="#4B627F" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">learning / building / iterating</text>
+    <circle cx="610" cy="474" r="5" fill="#1FA97A">
+      <animate attributeName="opacity" values="0.5;1;0.6;1;0.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="542" y="466" width="54" height="18" rx="9" fill="#EFF5FF" stroke="#D3DEF2"/>
     <text x="550" y="480" fill="#4B627F" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">LIVE</text>
   </g>
 
   <g>
     <text x="776" y="98" fill="#152638" font-size="26" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">SYSTEM.INFO</text>
-    <path d="M776 114H1098" stroke="url(#accentLine)"/>
+    <path d="M776 114H1098" stroke="url(#lineLight)"/>
 
     <text x="776" y="150" fill="#587189" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">&gt; NAME</text>
     <text x="776" y="177" fill="#14263A" font-size="26" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">ANTARIKSH</text>
@@ -130,5 +154,20 @@
     <text x="776" y="472" fill="#1A2E42" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">SCALER</text>
     <text x="776" y="494" fill="#4F6079" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">UG IN COMPUTER SCIENCE &amp; AI</text>
     <text x="776" y="513" fill="#127A63" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">CGPA 9.12</text>
+  </g>
+
+  <g id="network" opacity="0.75">
+    <circle cx="252" cy="124" r="3" fill="#1FA97A">
+      <animate attributeName="opacity" values="0.3;1;0.4;1;0.3" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="416" cy="182" r="3" fill="#3F7AE7">
+      <animate attributeName="opacity" values="0.4;1;0.5;1;0.4" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="548" cy="220" r="3" fill="#1FA97A">
+      <animate attributeName="opacity" values="0.3;1;0.4;1;0.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M252 124L416 182L548 220" stroke="#D1DFF0" stroke-width="1.2"/>
+    <path d="M416 182L620 280" stroke="#D1DFF0" stroke-width="1.2"/>
+    <path d="M548 220L620 280" stroke="#D1DFF0" stroke-width="1.2"/>
   </g>
 </svg>
