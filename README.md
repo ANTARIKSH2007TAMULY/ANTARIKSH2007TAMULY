@@ -196,9 +196,9 @@ The contribution graph below is generated from GitHub Actions and refreshed auto
   <a href="https://antariksh-portfolio-tau.vercel.app/">Portfolio</a>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1180' height='42' viewBox='0 0 1180 42'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%237DE5FF'/%3E%3Cstop offset='0.5' stop-color='%237884FF'/%3E%3Cstop offset='1' stop-color='%237DE5FF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1180' height='42' fill='none'/%3E%3Cpath d='M0 21H1180' stroke='%231D2D46' stroke-width='1'/%3E%3Cpath d='M0 21H340' stroke='url(%23g)' stroke-width='3' stroke-linecap='round'%3E%3Canimate attributeName='d' dur='6s' repeatCount='indefinite' values='M0 21H340;M180 21H1180;M0 21H340'/%3E%3C/path%3E%3Ccircle cx='340' cy='21' r='4.5' fill='%237DE5FF'%3E%3Canimate attributeName='cx' dur='6s' repeatCount='indefinite' values='340;560;340'/%3E%3C/circle%3E%3C/svg%3E" alt="animated signal line" width="100%" />
-</p>
+</p> -->
 
 ## 01 / PROFILE
 
@@ -585,8 +585,7 @@ Building the bridge between data, intelligence, and real-world decisions.
 </i>
 
 </p>
-
-<p align="center">
+<p align="center" style="display:flex; justify-content:center;">
 
 <strong>DATA SCIENCE · BUSINESS ANALYTICS · MACHINE LEARNING · AI</strong>
 
