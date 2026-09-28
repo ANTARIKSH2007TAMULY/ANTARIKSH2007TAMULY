@@ -1,4 +1,4 @@
-<p align="center">
+<!-- <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./light.svg">
@@ -175,4 +175,419 @@ The contribution graph below is generated from GitHub Actions and refreshed auto
 
 <p align="center">
   <i>Building software, data, and intelligence with a strong technical foundation.</i>
+</p> -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+    <img src="./dark.svg" alt="Antariksh Tamuly — Data Science, Business Analytics, Machine Learning and AI" width="1180" />
+  </picture>
+</p>
+
+<h1 align="center">Antariksh Tamuly</h1>
+
+<p align="center">
+  <strong>DATA SCIENCE · BUSINESS ANALYTICS · MACHINE LEARNING · AI</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ANTARIKSH2007TAMULY">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/antariksh-tamuly-5307ab373/">LinkedIn</a> ·
+  <a href="https://antariksh-portfolio-tau.vercel.app/">Portfolio</a>
+</p>
+
+<p align="center">
+  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1180' height='42' viewBox='0 0 1180 42'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%237DE5FF'/%3E%3Cstop offset='0.5' stop-color='%237884FF'/%3E%3Cstop offset='1' stop-color='%237DE5FF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1180' height='42' fill='none'/%3E%3Cpath d='M0 21H1180' stroke='%231D2D46' stroke-width='1'/%3E%3Cpath d='M0 21H340' stroke='url(%23g)' stroke-width='3' stroke-linecap='round'%3E%3Canimate attributeName='d' dur='6s' repeatCount='indefinite' values='M0 21H340;M180 21H1180;M0 21H340'/%3E%3C/path%3E%3Ccircle cx='340' cy='21' r='4.5' fill='%237DE5FF'%3E%3Canimate attributeName='cx' dur='6s' repeatCount='indefinite' values='340;560;340'/%3E%3C/circle%3E%3C/svg%3E" alt="animated signal line" width="100%" />
+</p>
+
+## 01 / PROFILE
+
+<p align="center">
+
+### DATA → INSIGHT → MODEL → DECISION
+
+</p>
+
+I am **Antariksh Tamuly**, a student and early-career developer focused on **Data Science, Business Analytics, Machine Learning, and AI**.
+
+I am pursuing a **BS in Data Science and Applications at IIT Madras** and a **UG in Computer Science & AI at Scaler School of Technology**.
+
+My primary interest lies in understanding data beyond individual models — from **exploratory analysis and statistical reasoning** to **machine learning, experimentation, predictive modeling, and communicating insights that can support better decisions**.
+
+I enjoy working across the complete analytical workflow:
+
+**Collect → Clean → Explore → Analyze → Model → Evaluate → Communicate**
+
+with software engineering serving as the foundation that helps turn analytical ideas into practical applications.
+
+---
+
+## 02 / ANALYTICS MINDSET
+
+<table>
+  <tr>
+    <td valign="top" width="25%" align="center">
+
+### DATA
+
+Understanding the structure, quality, patterns, and relationships within data.
+
+</td>
+    <td valign="top" width="25%" align="center">
+
+### INSIGHT
+
+Using EDA, statistics, and visualization to identify meaningful patterns and answer questions.
+
+</td>
+    <td valign="top" width="25%" align="center">
+
+### MODEL
+
+Applying machine learning and predictive techniques to extract deeper signals from data.
+
+</td>
+    <td valign="top" width="25%" align="center">
+
+### DECISION
+
+Connecting analytical findings with practical interpretation and measurable outcomes.
+
+</td>
+  </tr>
+</table>
+
+---
+
+## 03 / AREAS OF FOCUS
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+
+### BUSINESS ANALYTICS
+
+* Exploratory Data Analysis
+* Business-oriented data interpretation
+* KPI and metric analysis
+* Pattern and trend identification
+* Data-driven problem solving
+* Insight communication
+* Experimentation and evaluation
+
+</td>
+    <td valign="top" width="50%">
+
+### DATA SCIENCE
+
+* Data preprocessing
+* Statistical analysis
+* Feature engineering
+* Visualization
+* Predictive modeling
+* Model evaluation
+* Analytical experimentation
+
+</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="50%">
+
+### MACHINE LEARNING
+
+* Supervised learning
+* Unsupervised learning
+* Regression
+* Classification
+* Clustering
+* Dimensionality reduction
+* Ensemble methods
+* Model selection and evaluation
+
+</td>
+    <td valign="top" width="50%">
+
+### AI & APPLIED SYSTEMS
+
+* Practical ML experimentation
+* Data-driven applications
+* ML workflows
+* Analytical automation
+* AI experimentation
+* Software foundations for ML systems
+
+</td>
+  </tr>
+</table>
+
+---
+
+## 04 / TECHNICAL STACK
+
+<table>
+  <tr>
+    <td valign="top" width="33%">
+
+### LANGUAGES
+
+**Python** · SQL · JavaScript · TypeScript · Java · C++
+
+</td>
+    <td valign="top" width="33%">
+
+### DATA
+
+**Pandas** · **NumPy** · SQL · EDA · Data preprocessing · Visualization
+
+</td>
+    <td valign="top" width="33%">
+
+### MACHINE LEARNING
+
+**scikit-learn** · Regression · Classification · Clustering · Feature Engineering · Model Evaluation
+
+</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="33%">
+
+### ANALYTICS
+
+Statistical analysis · Experimentation · Data interpretation · KPI analysis · Insight generation
+
+</td>
+    <td valign="top" width="33%">
+
+### APPLICATIONS
+
+React · HTML · CSS · REST APIs · Database integration
+
+</td>
+    <td valign="top" width="33%">
+
+### TOOLS
+
+Git · GitHub · VS Code · Linux · Testing · Debugging
+
+</td>
+  </tr>
+
+  <tr>
+    <td colspan="3" align="center">
+
+### DATA → ML → DEPLOYMENT
+
+GitHub Actions · Deployment workflows · Environment management
+
+</td>
+  </tr>
+</table>
+
+---
+
+## 05 / EDUCATION
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+
+### IIT MADRAS
+
+**BS in Data Science and Applications**
+
+**CGPA · 9.2**
+
+Building a strong foundation in data science, statistics, machine learning, programming, databases, and computational problem solving.
+
+</td>
+    <td valign="top" width="50%">
+
+### SCALER SCHOOL OF TECHNOLOGY
+
+**UG in Computer Science & AI**
+
+**CGPA · 9.12**
+
+Developing complementary foundations across computer science, programming, software development, and AI.
+
+</td>
+  </tr>
+</table>
+
+---
+
+## 06 / PROJECTS & APPLICATIONS
+
+<p align="center">
+  <strong>BUILDING WITH DATA, ML & SOFTWARE</strong>
+</p>
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+
+### E-COMMERCE WEBSITE
+
+An application-oriented project combining frontend development, backend integration, databases, and practical software engineering.
+
+**Focus:** Application Development · Data · Systems
+
+</td>
+    <td valign="top" width="50%">
+
+### FIND BLOOD DONOR
+
+A web-based application designed around connecting users with relevant donor information through a practical data-driven workflow.
+
+**Focus:** Data Handling · Web Application · User Utility
+
+</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="50%">
+
+### HEALTH INTELLIGENCE WEB APP
+
+A project exploring the intersection of web applications, structured information, and data-oriented workflows.
+
+**Focus:** Data · Application Development · Intelligence
+
+</td>
+    <td valign="top" width="50%">
+
+### MOVIE-PLUS
+
+A project focused on building an interactive application around structured movie-related information.
+
+**Focus:** Data · Application Development · User Experience
+
+</td>
+  </tr>
+</table>
+
+---
+
+## 07 / ACTIVITY
+
+<p align="center">
+  <small>↻ AUTO-REFRESHED VIA GITHUB ACTIONS</small>
+</p>
+
+<p align="center">
+  <strong>GITHUB ACTIVITY</strong><br>
+  267 contributions in the last year
+</p>
+
+<p align="center">
+  <img src="./assets/github-contribution-grid-snake.svg" alt="GitHub contribution activity for Antariksh Tamuly" width="100%" />
+</p>
+
+---
+
+## 08 / CURRENT DIRECTION
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+
+**01**
+
+### ANALYZE
+
+Turn raw data into structured understanding.
+
+</td>
+    <td align="center" width="25%">
+
+**02**
+
+### MODEL
+
+Use statistical and ML techniques to discover predictive patterns.
+
+</td>
+    <td align="center" width="25%">
+
+**03**
+
+### VALIDATE
+
+Evaluate assumptions, experiments, and model performance.
+
+</td>
+    <td align="center" width="25%">
+
+**04**
+
+### COMMUNICATE
+
+Translate technical findings into clear, useful insights.
+
+</td>
+  </tr>
+</table>
+
+<p align="center">
+
+`DATA` → `INSIGHT` → `MODEL` → `EVALUATION` → `DECISION`
+
+</p>
+
+---
+
+## 09 / CONNECT
+
+<p align="center">
+  <strong>LET'S CONNECT</strong>
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center">
+
+**GITHUB**
+
+<a href="https://github.com/ANTARIKSH2007TAMULY">
+ANTARIKSH2007TAMULY
+</a>
+
+</td>
+    <td align="center">
+
+**LINKEDIN**
+
+<a href="https://www.linkedin.com/in/antariksh-tamuly-5307ab373/">
+ANTARIKSH TAMULY
+</a>
+
+</td>
+    <td align="center">
+
+**PORTFOLIO**
+
+<a href="https://antariksh-portfolio-tau.vercel.app/">
+PORTFOLIO
+</a>
+
+</td>
+  </tr>
+</table>
+
+---
+
+<p align="center">
+
+<i>
+Building the bridge between data, intelligence, and real-world decisions.
+</i>
+
+</p>
+
+<p align="center">
+
+<strong>DATA SCIENCE · BUSINESS ANALYTICS · MACHINE LEARNING · AI</strong>
+
 </p>
