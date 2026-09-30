@@ -484,7 +484,7 @@ A project focused on building an interactive application around structured movie
 <p align="center">
   <img src="./assets/github-contribution-grid-snake.svg" alt="GitHub contribution activity for Antariksh Tamuly" width="100%" />
 </p> -->
-<p align="center">
+<!-- <p align="center">
   <small>↻ AUTO-REFRESHED VIA GITHUB ACTIONS</small>
 </p>
 
@@ -495,6 +495,26 @@ A project focused on building an interactive application around structured movie
 
 <p align="center">
   <img src="./assets/github-contribution-grid-snake.svg" alt="GitHub contribution activity for Antariksh Tamuly" width="100%" />
+</p> -->
+
+
+↻ AUTO-REFRESHED VIA GITHUB ACTIONS
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/ANTARIKSH2007TAMULY/ANTARIKSH2007TAMULY/output/github-contribution-grid-snake-dark.svg"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/ANTARIKSH2007TAMULY/ANTARIKSH2007TAMULY/output/github-contribution-grid-snake.svg"
+    >
+    <img
+      src="https://raw.githubusercontent.com/ANTARIKSH2007TAMULY/ANTARIKSH2007TAMULY/output/github-contribution-grid-snake.svg"
+      alt="GitHub Contribution Snake"
+    >
+  </picture>
 </p>
 
 ---
