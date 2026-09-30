@@ -472,6 +472,18 @@ A project focused on building an interactive application around structured movie
 
 ## 07 / ACTIVITY
 
+<!-- <p align="center">
+  <small>↻ AUTO-REFRESHED VIA GITHUB ACTIONS</small>
+</p> -->
+
+<!-- <p align="center">
+  <strong>GITHUB ACTIVITY</strong><br>
+  267 contributions in the last year
+</p>
+
+<p align="center">
+  <img src="./assets/github-contribution-grid-snake.svg" alt="GitHub contribution activity for Antariksh Tamuly" width="100%" />
+</p> -->
 <p align="center">
   <small>↻ AUTO-REFRESHED VIA GITHUB ACTIONS</small>
 </p>
