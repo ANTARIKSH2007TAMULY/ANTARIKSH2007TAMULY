@@ -124,5 +124,5 @@ jobs:
 #             echo "No snake changes to commit."
 #           else
 #             git commit -m "chore: update contribution snake"
-#             git push
+#             git push yo buddy
 #           fi
