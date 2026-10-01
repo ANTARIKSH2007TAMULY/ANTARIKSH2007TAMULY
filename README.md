@@ -3,7 +3,7 @@
     <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./light.svg">
     <img src="./dark.svg" alt="Antariksh Tamuly — Software Engineering, Data Science, Machine Learning and AI" width="1180" />
-  </picture>
+  </picture> yo buddy
 </p>
 
 <h1 align="center">Antariksh Tamuly</h1>
